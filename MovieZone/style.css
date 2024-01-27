@@ -351,10 +351,6 @@
                 inset 0 -1px 0 var(--black);
   }
   
-  
-  
-  
-  
   /*
    * #HEADER
   */
@@ -468,41 +464,10 @@
     pointer-events: all;
   }
   
-  
-  
-  
-  
   /*
    * #HERO
  */
   
-  /* .hero {
-    background: url("./images/friends2.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 750px;
-    height: 100vh;
-    max-height: 1000px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-block: var(--section-padding);
-  }
-  
-  .hero-content { margin-top: 60px; }
-  
-  .hero-subtitle {
-    color: var(--citrine);
-    font-size: var(--fs-4);
-    font-weight: var(--fw-700);
-    margin-bottom: 10px;
-  }
-  
-  .hero-title { margin-bottom: 30px; }
-  
-  .hero-title > strong { color: var(--citrine); }
-  
-   */
    .hero {
     position: relative;
     min-height: 750px;
@@ -900,10 +865,6 @@ html{
     color: var(--eerie-black);
   }
   
-  
-  
-  
-  
   /*
    * #FOOTER
   */
@@ -997,10 +958,6 @@ html{
     margin-inline: auto;
   }
   
-  
-  
-  
-  
   /*
    * #GO TO TOP
   */
@@ -1027,10 +984,6 @@ html{
     opacity: 1;
     visibility: visible;
   }
-  
-  
-  
-  
   
   /*
    * #MOVIE DETAIL 
@@ -1156,10 +1109,6 @@ html{
   
   .download-btn ion-icon { font-size: 16px; }
   
-  
-  
-  
-  
   /*
    * #MEDIA QUERIES
   */
@@ -1183,9 +1132,7 @@ html{
       --fs-1: 42px;
   
     }
-  
-  
-  
+
     /**
      * REUSED STYLE
      */
@@ -1202,8 +1149,6 @@ html{
       gap: 60px 30px;
     }
   
-  
-  
     /**
      * HERO
      */
@@ -1212,15 +1157,11 @@ html{
   
     .hero-content { margin-top: 20px; }
   
-  
-  
     /**
      * UPCOMING
      */
   
     .upcoming .movies-list > li { min-width: calc(50% - 15px); }
-  
-  
   
     /**
      * SERVICE
@@ -1238,8 +1179,6 @@ html{
   
     .service-card .card-content { width: calc(100% - 115px); }
   
-  
-  
     /**
      * MOVIE DETAIL
      */
@@ -1249,10 +1188,6 @@ html{
     .detail-title { --fs-1: 46px; }
   
   }
-  
-  
-  
-  
   
   /**
    * responsive for large than 768px screen
@@ -1274,15 +1209,11 @@ html{
   
     }
   
-  
-  
     /**
      * REUSED STYLE
      */
   
     .container { max-width: 720px; }
-  
-  
   
     /**
      * HEADER
@@ -1336,16 +1267,12 @@ html{
   
     .lang-wrapper option { color: var(--black); }
   
-  
-  
     /**
      * HERO
      */
   
     .hero-content { margin-top: 90px; }
-  
-  
-  
+
     /**
      * SERVICE
      */
@@ -1356,8 +1283,6 @@ html{
     }  
   
     .service-content { padding-inline: 40px; }
-  
-  
   
     /**
      * CTA
@@ -1378,14 +1303,11 @@ html{
       bottom: 2px;
     }
   
-  
-  
     /**
      * FOOTER
      */
   
     .footer-brand-wrapper .logo { margin: 0; }
-  
     .footer-brand-wrapper,
     .quicklink-wrapper,
     .footer-bottom .container {
@@ -1395,27 +1317,18 @@ html{
     }
   
     .quicklink-list { margin-bottom: 0; }
-  
     .copyright { margin-bottom: 0; }
-  
     .footer-bottom-img { margin-inline: 0; }
-  
-  
   
     /**
      * MOVIE DETAIL
      */
   
     .detail-subtitle { --fs-5: 26px; }
-  
     .detail-title { --fs-1: 50px; }
   
   }
-  
-  
-  
-  
-  
+   
   /**
    * responsive for large than 992px screen
    */
@@ -1432,23 +1345,18 @@ html{
   
     .movies-list { grid-template-columns: repeat(3, 1fr); }
   
-  
-  
     /**
      * HEADER
      */
   
     .header.active { padding-block: 5px; }
-  
     .menu-open-btn,
     .navbar-top,
     .navbar-social-list { display: none; }
-  
     .navbar {
       all: unset;
       margin-left: auto;
     }
-  
     .header-actions {
       order: 1;
       margin-left: 0;
@@ -1471,22 +1379,16 @@ html{
   
     .overlay { display: none; }
   
-  
-  
     /**
      * HERO
      */
   
     .hero { background-position: right; }
-  
     .hero .container { width: 950px; }
-  
     .hero-content {
       margin-top: 100px;
       max-width: 600px;
     }
-  
-  
   
     /**
      * UPCOMING
@@ -1499,12 +1401,8 @@ html{
     }
   
     .upcoming :is(.section-subtitle, .section-title) { text-align: left; }
-  
     .upcoming .section-title { margin-bottom: 0; }
-  
     .upcoming .movies-list > li { min-width: calc(33.33% - 20px); }
-  
-  
   
     /**
      * SERVICE
@@ -1523,49 +1421,39 @@ html{
     }
   
     .service-banner { margin-bottom: 0; }
-  
     .service-btn { right: 111px; }
-  
-  
   
     /**
      * CTA
      */
   
     .cta { text-align: left; }
-  
     .cta .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-  
     .cta .title-wrapper {
       margin-bottom: 0;
       width: 100%;
     }
-  
     .cta-form {
       margin-inline: 0;
       max-width: unset;
       width: 100%;
     }
-  
-  
-  
+
     /**
      * MOVIE DETAIL
      */
   
     .movie-detail { padding-bottom: 200px; }
-  
     .movie-detail .container {
       position: relative;
       display: flex;
       align-items: center;
       gap: 50px;
     }
-  
     .movie-detail-banner,
     .details-actions { margin: 0; }
   
@@ -1576,10 +1464,6 @@ html{
     }
   
   }
-  
-  
-  
-  
   
   /**
    * responsive for large than 1200px screen
@@ -1601,9 +1485,7 @@ html{
       --fs-4: 26px;
   
     }
-  
-  
-  
+
     /**
      * REUSED STYLE
      */
@@ -1614,30 +1496,23 @@ html{
   
     .movies-list { grid-template-columns: repeat(4, 1fr); }
   
-  
-  
     /**
      * HEADER
      */
   
     .navbar { margin-inline: auto; }
-  
     .header-actions .btn-primary {
       display: block;
       --fs-11: 14px;
       padding: 10px 35px;
       letter-spacing: 1px;
     }
-  
-  
-  
+
     /**
      * HERO
      */
   
     .hero .container { width: 1320px; }
-  
-  
   
     /**
      * UPCOMING
@@ -1645,20 +1520,14 @@ html{
   
     .upcoming .movies-list > li { min-width: calc(25% - 22.5px); }
   
-  
-  
     /**
      * SERVICE
      */
   
     .service-content { width: calc(100% - 700px); }
-  
     .service-btn { right: -20px; }
-  
     .service-list,
     .service-title { max-width: 480px; }
-  
-  
   
     /**
      * CTA
@@ -1666,18 +1535,13 @@ html{
   
     .cta .container { max-width: 1150px; }
   
-  
-  
     /**
      * MOVIE DETAIL
      */
   
     .movie-detail { padding-bottom: var(--section-padding); }
-  
     .movie-detail-content { max-width: 620px; }
-  
     .detail-title { --fs-1: 60px; }
-  
     .download-btn {
       left: auto;
       right: 15px;
@@ -1686,10 +1550,8 @@ html{
       transform-origin: bottom right;
       padding: 40px 50px;
     }
-  
     .download-btn ion-icon {
       font-size: 30px;
       transform: rotate(-0.25turn);
     }
-  
   }
