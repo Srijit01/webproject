@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+        <section>
+            <form action="index.html">
+                <h1>Login</h1>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" required id="username">
+                    <label for="">Email</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" required id="password">
+                    <label for="">Password</label>
+                </div>
+                <div class="forget">
+                    <label for=""><input type="checkbox">Remember Me</label>
+                  <a href="#">Forget Password</a>
+                </div>
+                <button onclick="func()">Log in</button>
+                <div class="register">
+                    <p>Don't have a account? <a href="reg_form.html">Register</a></p>
+                </div>
+            </form>
+        </section>
+        <script>
+            function func(){
+                var email=document.getElementById("username").value;
+                var pass=document.getElementById('password').value;
+                if(email=='eshikasom22@gmail.com' && pass=='123456')
+                {
+                    alert("sucessfully");
+                
+                }
+                else{
+                    alert("Wrong Entry");
+                    return;
+                }
+            }
+        </script>
+</body>
+</html>
